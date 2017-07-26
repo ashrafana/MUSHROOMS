@@ -1,0 +1,12 @@
+s= "UUUUUC"
+
+x={"UUU" : "F", "UUC" : "F"} 
+
+#UUU=("F")
+#UUC=("F")
+#UUA=("L")
+
+#print x["UUU"]
+
+for i in range(0, len(s), 3):
+   print x[s[i:i+3]] 
