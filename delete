@@ -1,0 +1,33 @@
+
+f=open("/share/data/day5/puzzle2.txt")
+L=f.readlines()
+#L = ["BBBC", "BBCC", "CDDDD", "BC", "BB", "CC"]
+
+S = []
+
+for u in range(0,len(L)):
+	L[u]=L[u].strip()        
+	S=S.split(", ")
+
+	
+for x in range (0, len(S)):
+	S.append(L[x])
+
+#S=S.replace(',',' ')
+#L#=S.split()
+#print L
+
+D={}
+for a in S:
+       D[a]="a"
+
+#print D
+#print D.keys()
+S=D.keys()
+
+print S
+
+#for i in range(10):
+   #print L[1][i:i+5]
+
+

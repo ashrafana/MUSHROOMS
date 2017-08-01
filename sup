@@ -1,14 +1,15 @@
 import random
 code=""
+AT=40
 for i in range (1,5001):
-   	    x=random.randint(1,5)
-   	    if x==1:
+   	    x=random.randint(0,100)
+   	    if x<AT/2:
            	code= code + 'A'
-   	    if x==2:
+   	    if x>AT/2 and x<AT:
            	code = code + 'T'
-            if x==3: 
+            if x>AT and x<AT + (100-AT)/2: 
                 code = code + 'G'
-            if x==4:
+            if x>70:
                 code = code + 'C'
 
 

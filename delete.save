@@ -1,0 +1,17 @@
+3rv sreanwQRWSXYEFMQ 
+
+L = ["SHEFALIISADWEEB", "BB", "CD", "BC", "BB", "CC"]
+D={}
+for a in L:
+       D[a]="a"
+
+#print D
+#print D.keys()
+L=D.keys()
+
+print L
+
+for i in range(10):
+   print L[1][i:i+5]
+
+
